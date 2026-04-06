@@ -1,19 +1,19 @@
-# Project 4: Credit Risk Prediction for ZeitPay GmbH (Fintech)
+# Credit Risk Prediction for ZeitPay GmbH (Fintech)
 
-## 📌 Overview
+## Overview
 This project develops a predictive model to identify credit default risk for a Berlin-based "Buy Now, Pay Later" startup. 
 
-## 🛠️ Technical Stack
+## Technical Stack
 - **Language:** Python 3.x
 - **Libraries:** Pandas, Scikit-Learn, Seaborn, Matplotlib
 - **Model:** Random Forest Classifier (Accuracy: 98%)
 
-## 📊 Key Insights
+## Key Insights
 - **Primary Risk Driver:** Past Defaults & SCHUFA Score.
 - **Business Impact:** Identified a "High Risk" segment that accounts for 85% of potential defaults.
 - **Recommendation:** Automated rejection for SCHUFA scores below 500.
 
-### 🧠 Technical Logic & FAQ
+### Technical Logic & FAQ
 **Q: Why use a Random Forest Classifier for this dataset?**
 * **A:** Random Forest is excellent for credit scoring because it handles non-linear relationships. For example, a "Medium" SCHUFA score might be "Low Risk" for a high-income earner but "High Risk" for a low-income earner. A simple linear model might miss these nuances.
 
